@@ -21,21 +21,18 @@ nav{
     top: 0;
 }
 nav li {
-    display: inline;
-    
+    display: inline;    
 }
-nav li a{
-    
+nav li a{  
+    float: left;  
     text-transform: uppercase;
     font-family: 'Montserrat', sans-serif;
     letter-spacing: 2px;
     font-size: 15px;
     text-decoration: none;
-    float: right;
     padding: 10px;
     background-color: white;
     color: black;
-
 }
 h2{
     text-transform: uppercase;
@@ -49,24 +46,28 @@ p{
 li{
     margin-bottom: 10px;
 }
+em{
+    font-family: 'Charmonman',cursive;
+    font-size: 30px;
+}
 .titulo{
     font-family: 'Montserrat', sans-serif;
     font-size: 45px;
     text-align: center;
     letter-spacing: 15px;
     padding-top: 250px;
+    text-transform: uppercase;
 }
 .date{
     font-family: 'Montserrat', sans-serif;
     letter-spacing: 15px;
-    text-align: center;
-    
+    text-align: center; 
+    text-transform: uppercase;   
 }
 .contenedor{
     margin: 540px 200px 100px 200px;
     font-size: 25px;
     font-family: 'Quicksand', sans-serif;
-    font-size: 25px;
     text-align: justify;
 }
 .cuerpo{
@@ -76,6 +77,24 @@ li{
     column-gap: 20px;
     
 }
+.cabecera{
+    margin-left: 200px;
+    margin-right: 200px;
+    font-size: 25px;
+    font-family: 'Quicksand', sans-serif;
+    text-align: justify;
+}
+.texto{
+    column-count: 3;
+    font-family: 'Quicksand', sans-serif;
+    text-align: justify;
+    margin-top: 300px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 100px;
+}
 
-/*font-family: 'Montserrat', sans-serif;
-font-family: 'Adamina', serif;*/
+#pict{
+    float: right;
+    margin-top: 150px;
+}
