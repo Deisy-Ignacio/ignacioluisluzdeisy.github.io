@@ -2,27 +2,14 @@ body{
     background-color: white;
     width:100%;
 }
-
-img{
-    float: left;
-    width: 30%;
-    margin-left: 200px;
-    margin-right: 100px;
-    margin-top: 50px;
-}
-hr {
-    background-color:black;
-    max-width: 150px;
-    margin-left: 1310px;
+nav li {
+    display: inline;    
 }
 nav{
     position: fixed;
     margin-right: 50px;
     right: 0;
     top: 0;
-}
-nav li {
-    display: inline;    
 }
 nav li a{  
     float: left;  
@@ -35,67 +22,67 @@ nav li a{
     background-color: white;
     color: black;
 }
+img{
+    float: left;
+    width: 40%;
+    margin-right: 100px;
+    margin-top: 50px;
+}
 h2{
     text-transform: uppercase;
     font-family: 'Montserrat', sans-serif;
     text-align: center;
+    font-size: 40px;
 }
 p{
     margin-top: 0px;
     text-indent: 0.8cm;
-}
-li{
-    margin-bottom: 10px;
+    text-align: justify;
 }
 em{
-    font-family: 'Charmonman',cursive;
-    font-size: 30px;
+    font-family: 'Cutive Mono', monospace;
+    font-size: 20px;
+}
+.contenedor{
+    margin: 50px 200px 100px 200px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+}
+.cabecera{
+    margin-bottom: 540px;
+}
+.cabecera_cuento{
+    margin-bottom: 330px;
 }
 .titulo{
     font-family: 'Montserrat', sans-serif;
     font-size: 45px;
+    text-transform: uppercase;
     text-align: center;
     letter-spacing: 15px;
     padding-top: 250px;
-    text-transform: uppercase;
 }
-.date{
+.subtitulo{
     font-family: 'Montserrat', sans-serif;
     letter-spacing: 15px;
     text-align: center; 
-    text-transform: uppercase;   
-}
-.contenedor{
-    margin: 540px 200px 100px 200px;
-    font-size: 25px;
-    font-family: 'Quicksand', sans-serif;
-    text-align: justify;
+    text-transform: uppercase; 
 }
 .cuerpo{
-    margin-top: 0px;
-    margin-bottom: 40px;
     column-count: 2;
-    column-gap: 20px;
-    
+    margin-bottom: 20px;
 }
-.cabecera{
-    margin-left: 200px;
-    margin-right: 200px;
-    font-size: 25px;
-    font-family: 'Quicksand', sans-serif;
-    text-align: justify;
+.col1{
+    text-transform: uppercase;
 }
 .texto{
     column-count: 3;
-    font-family: 'Quicksand', sans-serif;
-    text-align: justify;
-    margin-top: 300px;
-    margin-left: 200px;
-    margin-right: 200px;
-    margin-bottom: 100px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 #pict{
     float: right;
     margin-top: 150px;
+    width: 30%;
 }
