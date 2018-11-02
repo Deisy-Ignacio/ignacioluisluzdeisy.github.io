@@ -2,24 +2,25 @@ body{
     background-color: white;
     width:100%;
 }
-nav li {
-    display: inline;    
-}
 nav{
+    list-style: none;
     position: fixed;
-    margin-right: 50px;
-    right: 0;
-    top: 0;
+    top: 5px;
+    width: 100%;
+    text-align: center;
+}
+nav li {
+    display: inline-block; 
 }
 nav li a{  
     float: left;  
     text-transform: uppercase;
     font-family: 'Montserrat', sans-serif;
     letter-spacing: 2px;
-    font-size: 15px;
+    font-size: 16px;
     text-decoration: none;
     padding: 10px;
-    background-color: white;
+    background-color:rgb(245, 245, 245);
     color: black;
 }
 img{
@@ -33,6 +34,7 @@ h2{
     font-family: 'Montserrat', sans-serif;
     text-align: center;
     font-size: 40px;
+    margin-bottom: 30px;
 }
 p{
     margin-top: 0px;
@@ -43,10 +45,16 @@ em{
     font-family: 'Cutive Mono', monospace;
     font-size: 20px;
 }
+ol{
+    margin-top: 0px;
+}
+ol li{
+    text-transform: uppercase;
+}
 .contenedor{
     margin: 50px 200px 100px 200px;
     font-family: 'Quicksand', sans-serif;
-    font-size: 20px;
+    font-size: 18px;
 }
 .cabecera{
     margin-bottom: 540px;
@@ -80,7 +88,17 @@ em{
     margin-top: 20px;
     margin-bottom: 20px;
 }
-
+.cabecera_glosario{
+    margin-bottom: 80px;
+    margin-top: 80px;
+    height: 50%;
+}
+.titulo_glosario{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 45px;
+    text-transform: uppercase;
+}
 #pict{
     float: right;
     margin-top: 150px;
